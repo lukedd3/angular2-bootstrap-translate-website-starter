@@ -3,7 +3,9 @@ Angular2 starter based on angular-quickstart project. Includes routing, bootstra
 
 ## Description
 
-It is a starter project for a single page website. Main framework is Angular2. App contains two modules (module-first and module-second) for which routing is defined. Project includes also bootstrap integration using ng2-bootstrap library ([https://github.com/valor-software/ng2-bootstrap](https://github.com/valor-software/ng2-bootstrap)) and internationalization made with use of ng2-translate library ([https://github.com/ngx-translate/core](https://github.com/ngx-translate/core)).
+It is a starter project for a single page website. Main framework is Angular2. App contains two modules (module-first and module-second) for which routing is defined. Project includes also bootstrap integration using ng2-bootstrap library ([link](https://github.com/valor-software/ng2-bootstrap)) and internationalization made with use of ng2-translate library ([link](https://github.com/ngx-translate/core)). Whole project is based on Angular QuickStart project ([link](https://github.com/angular/quickstart))
+
+## Screenshots
 
 ![Running Project Screenshot](https://raw.githubusercontent.com/lukedd3/angular2-bootstrap-translate-website-starter/master/README%20assets/screenshot.png)
 
