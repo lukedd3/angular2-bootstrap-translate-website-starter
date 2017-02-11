@@ -3,7 +3,7 @@ Angular2 starter based on angular-quickstart project. Includes routing, bootstra
 
 ## Description
 
-# [![Running Project Screenshot](https://raw.githubusercontent.com/lukedd3/angular2-bootstrap-translate-website-starter/master/README%20assets/screenshot.png)
+# ![Running Project Screenshot](https://raw.githubusercontent.com/lukedd3/angular2-bootstrap-translate-website-starter/master/README%20assets/screenshot.png)
 
 ## Running in development mode
 
