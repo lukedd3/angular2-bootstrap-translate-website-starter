@@ -1,0 +1,52 @@
+body {
+  padding-top: 70px;
+  background-image: url('../images/background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.main-container {
+	max-width: 1020px;
+
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 40px;
+	background-color: #FFFFFA;
+	
+	border-radius: 2px;
+	border: 2px solid #f8f8f8;
+	border-top: 6px solid #e7e7e7;
+}
+
+.app-title {
+  padding: 20px 15px;
+  text-align: center;
+}
+
+.form-inline-cutom{
+	display:inline;
+}
+
+.form-inline-block-custom{
+	display:inline-block;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.todo-closed-custom{
+	text-decoration: line-through;
+}
+
+.btn-add-custom{
+	margin-top: 8px;
+}
+
+.alert-custom{
+	margin-top: 8px;
+}
