@@ -14,10 +14,14 @@ It is a starter project for a single page website. Main framework is Angular2. A
 Firstly open cmd and navigate to project main folder. Then use commands mentioned below.
 
 If you run this app for the first time you have to install all node modules that are used. To do so type in cmd:
-`npm install`
+```
+npm install
+```
 
 To run app in development mode type:
-`npm start`
+```
+npm start
+```
 
 ## License
 
