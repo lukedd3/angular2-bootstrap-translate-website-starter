@@ -11,9 +11,9 @@ It is a starter project for a single page website. Main framework is Angular2. A
 
 ## Running in development mode
 
-You need to have NodeJS and Npm installed.
+You need to have NodeJS and Npm installed before you can do things described below.
 
-Firstly open cmd and navigate to project main folder. Then use commands mentioned below.
+Open cmd and navigate to project main folder. Then use commands mentioned below.
 
 If you run this app for the first time you have to install all node modules that are used. To do so type in cmd:
 ```
