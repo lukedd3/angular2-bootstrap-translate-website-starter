@@ -1,7 +1,7 @@
 {
-  "name": "angular2-bootstrap-translate-website-starter",
+  "name": "angular-bootstrap-translate-website-starter",
   "version": "1.0.0",
-  "description": "Angular2 starter based on angular-quickstart project. Includes routing, bootstrap and ng2-translate for internationalization",
+  "description": "Angular starter based on angular-quickstart project. Includes routing, bootstrap and ng2-translate for internationalization",
   "scripts": {
     "start": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
     "e2e": "tsc && concurrently \"http-server -s\" \"protractor protractor.config.js\" --kill-others --success first",
