@@ -1,5 +1,5 @@
 # angular-bootstrap-translate-website-starter
-Angular starter based on angular-quickstart project. Includes routing, bootstrap and ng2-translate for internationalization
+Angular 2+ (current version: 4.x.x) starter based on angular-quickstart project. Includes routing, bootstrap and ng2-translate for internationalization
 
 ## Description
 
