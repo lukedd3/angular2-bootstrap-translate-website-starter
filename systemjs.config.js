@@ -25,13 +25,14 @@
 	  
 	  //bootstrap
 	  'moment': 'npm:moment/bundles/moment.umd.js',
-	  'ng2-bootstrap': 'npm:ng2-bootstrap/bundles/ng2-bootstrap.umd.js',
+	  'ngx-bootstrap': 'npm:ngx-bootstrap/bundles/ngx-bootstrap.umd.js',
 	  
 	  //angulartics2
 	  'angulartics2': 'npm:angulartics2/dist/',
 	  
 	  //ng2-translate
-	  'ng2-translate': 'npm:ng2-translate/bundles/ng2-translate.umd.js',
+	  '@ngx-translate/core': 'npm:@ngx-translate/core/bundles/core.umd.js',
+	  '@ngx-translate/http-loader': 'npm:@ngx-translate/http-loader/bundles/http-loader.umd.js',
 
       // other libraries
       'rxjs':                      'npm:rxjs',

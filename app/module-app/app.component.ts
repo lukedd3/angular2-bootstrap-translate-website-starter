@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { Angulartics2GoogleAnalytics } from 'angulartics2';
-import { TranslateService } from 'ng2-translate';
+import { TranslateService } from '@ngx-translate/core';
 import { Language }  from '../translation/language.enum';
 
 @Component({

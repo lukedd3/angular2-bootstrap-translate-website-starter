@@ -5,9 +5,10 @@ import { HttpModule, Http } from '@angular/http';
 import { APP_BASE_HREF } from '@angular/common';
 
 import { Angulartics2Module, Angulartics2GoogleAnalytics } from 'angulartics2';
-import { TranslateModule, TranslateLoader, TranslateStaticLoader, TranslateService } from 'ng2-translate';
-import { AlertModule } from 'ng2-bootstrap';
-import { CollapseModule } from 'ng2-bootstrap';
+import { TranslateModule, TranslateLoader, TranslateService } from '@ngx-translate/core';
+import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { AlertModule } from 'ngx-bootstrap';
+import { CollapseModule } from 'ngx-bootstrap';
 import { TranslationBaseHrefFactory }  from '../translation/translation-base-href.factory';
 
 import { AppRoutingModule } from '../routing/app-routing.module';
@@ -24,9 +25,11 @@ import { SecondComponent }  from '../module-second/second.component';
     AppRoutingModule,
     Angulartics2Module.forRoot([Angulartics2GoogleAnalytics]),
     TranslateModule.forRoot({
-      provide: TranslateLoader,
-      useFactory: (http: Http) => new TranslateStaticLoader(http, '/resources/i18n', '.json'),
-      deps: [Http]
+	    loader: {
+		    provide: TranslateLoader,
+		    useFactory: (http: Http) => new TranslateHttpLoader(http, '/resources/i18n/', '.json'),
+		    deps: [Http]
+	  	}
     }),
     AlertModule.forRoot(),
     CollapseModule.forRoot()

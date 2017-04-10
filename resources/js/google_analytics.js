@@ -3,5 +3,5 @@
 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-ga('create', 'UA-XXXXXXXX-X', 'auto');
+ga('create', 'UA-XXXXXXXX-X', 'auto'); //Put your own Google Analytics key there!!!
 //ga('send', 'pageview'); //Commented out because of angulartics2 (angulartics2 does pageview hit itself so it would be doubled)
