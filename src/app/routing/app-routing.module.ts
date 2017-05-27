@@ -57,10 +57,9 @@ export class AppRoutingModule {
       translateService.get(event['metaDescriptionTranslationPath'])
       .subscribe((res: string) => {
       	var tag = { name: 'description', content: res };
-      	//console.log(tag);
-      	//todo: finish after preparing compilation to production environment
-      	//this.metaService.updateTag(tag, 'asd');
-        //this.metaService.addTag(tag, false);
+      	let attributeSelector : string = 'name="description"';
+        this.metaService.removeTag(attributeSelector);
+        this.metaService.addTag(tag, false);
       });
     });
   }
