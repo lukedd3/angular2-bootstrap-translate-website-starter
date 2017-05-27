@@ -1,0 +1,14 @@
+﻿{
+  "TITLE": {
+	"FIRST_COMPONENT": "Angular2+ Starter - First Component Title",
+	"SECOND_COMPONENT": "Angular2+ Starter - Second Component Title"
+  },
+  "META_DESC": {
+	"FIRST_COMPONENT": "First component dynamic meta desc",
+	"SECOND_COMPONENT": "Second component dynamic meta desc"
+  },
+  "NAV": {
+	"FIRST_COMPONENT": "First Component",
+	"SECOND_COMPONENT": "Second Component"
+  }
+}

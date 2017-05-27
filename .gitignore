@@ -10,3 +10,9 @@ e2e/**/*.js.map
 _test-output
 _temp
 *.bat
+/dist
+/tmp
+/out-tsc
+npm-debug.log
+testem.log
+Thumbs.db

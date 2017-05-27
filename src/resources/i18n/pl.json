@@ -1,0 +1,14 @@
+﻿{
+  "TITLE": {
+	"FIRST_COMPONENT": "Angular2+ Starter - Pierwszy moduł - tytuł",
+	"SECOND_COMPONENT": "Angular2+ Starter - Drugi moduł - tytuł"
+  },
+  "META_DESC": {
+	"FIRST_COMPONENT": "Pierwszy moduł - dynamiczny opis meta",
+	"SECOND_COMPONENT": "Drugi moduł - dynamiczny opis meta"
+  },
+  "NAV": {
+	"FIRST_COMPONENT": "Pierwszy moduł",
+	"SECOND_COMPONENT": "Drugi moduł"
+  }
+}
