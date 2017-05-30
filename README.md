@@ -32,7 +32,7 @@ ng build
 ```
 To generate production app build with minified files for http server (Apache or other):
 ```
-ng build --prod --aot=false
+ng build --prod --env=prod --aot=false
 ```
 
 In both cases production files will be in /dist folder
