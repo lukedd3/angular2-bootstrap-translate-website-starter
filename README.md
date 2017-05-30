@@ -30,7 +30,12 @@ To generate app build for http server (Apache or other):
 ```
 ng build
 ```
-Production files will be in /dist folder
+To generate production app build with minified files for http server (Apache or other):
+```
+ng build --prod --aot=false
+```
+
+In both cases production files will be in /dist folder
 
 In docs directory there is .htaccess file that should be used when this app is uploaded on Apache HTTP server
 
